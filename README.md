@@ -1,8 +1,9 @@
 DjangoAuth
-Ce projet permet aux utilisateurs de:
-• Se connecter.
-• Accèder à une page pour afficher / modifier ses informations.
-• Modifier l'adresse email en cliquant sur "Modifier ses informations" un modal qui s'ouvre pour faire la modification. Ce modal contient un input permettant de modifier l'adresse email, ainsi qu'un bouton "enregistrer". A l'appui de ce bouton, l'adresse email sera modifiée dans la base de données et sur la page principale sans rechargement de la page.
+Ce projet permet aux utilisateurs de se connecter ,accèder à une page pour afficher/modifier son adresse email .
+
+Prérequis:
+-Python 2.7
+-Django 1.8
 
 Commencer:
 1. Clonez le référentiel:
@@ -13,13 +14,16 @@ python manage.py migrate
 python manage.py createsuperuser
 4. Exécuter le serveur:
 python manage.py runserver
-5. Et ouvrez 127.0.0.1:8000/account/login dans votre navigateur Web.
+5. Et ouvrez  http://127.0.0.1:8000/account/login dans votre navigateur Web.
 
-Deployment Docker
+
+Deploiement sur Docker
 1. Exécuter:
-sudo  docker build -t my-django-app .
-2. Exécuter:
-sudo docker run -p 8000:8000 -i -t  my-django-app 
+> sudo  docker build -t django-auth .
+> sudo docker run -p 8000:8000 -i -t  django-auth
+ouvrez http://127.0.0.1:8000/account/login dans votre navigateur Web.
+
+Compte par défault: usernmae = admin, password = admin
 
 Author
 JLASSI Imen
