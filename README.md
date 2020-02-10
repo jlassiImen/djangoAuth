@@ -2,6 +2,7 @@ DjangoAuth
 Ce projet permet aux utilisateurs de se connecter ,accèder à une page pour afficher/modifier son adresse email .
 
 Prérequis:
+
 -Python 2.7
 -Django 1.8
 
