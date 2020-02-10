@@ -1,9 +1,10 @@
 DjangoAuth
 Ce projet permet aux utilisateurs de se connecter ,accèder à une page pour afficher/modifier son adresse email .
 
-Prérequis:
+Environnement:
 1. Python 2.7
 2. Django 1.8
+3. Bootstrap 3
 
 Commencer:
 1. Clonez le référentiel:
