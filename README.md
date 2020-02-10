@@ -20,10 +20,12 @@ python manage.py runserver
 Deploiement sur Docker
 1. Exécuter:
 > sudo  docker build -t django-auth .
+
 > sudo docker run -p 8000:8000 -i -t  django-auth
+
 ouvrez http://127.0.0.1:8000/account/login dans votre navigateur Web.
 
-Compte par défault: usernmae = admin, password = admin
+Compte par défault: username = admin, password = admin
 
 Author
 JLASSI Imen
