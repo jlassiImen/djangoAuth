@@ -15,5 +15,11 @@ python manage.py createsuperuser
 python manage.py runserver
 5. Et ouvrez 127.0.0.1:8000/account/login dans votre navigateur Web.
 
+Deployment Docker
+1. Exécuter:
+sudo  docker build -t my-django-app .
+2. Exécuter:
+sudo docker run -p 8000:8000 -i -t  my-django-app 
+
 Author
 JLASSI Imen
